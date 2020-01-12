@@ -1,18 +1,36 @@
 # https://www.acmicpc.net/problem/6118
 # date: 2020.01.09
-# BFS
-from collections import deque
+# 다익스트라
+import heapq
 
 N, M = map(int, input().split())
-farm = [[0] * (N + 1) for _ in range(N + 1)]
+path = [[] for _ in range(N + 1)]
+dist = [float("inf")] * (N + 1)
 
 for _ in range(M):
     A, B = map(int, input().split())
-    farm[A][B] = 1
-    farm[B][A] = 1
-visited = [0] * (N + 1)
+    path[A].append(B)
+    path[B].append(A)
 
+pq = [(0, 1)]
+dist[1] = dist[0] = 0
 
-# 검증
-# for i in range(N + 1):
-#     print(farm[i])
+while pq:
+    d, n = heapq.heappop(pq)
+    for p in path[n]:
+        if dist[p] > d + 1:
+            dist[p] = d + 1
+            heapq.heappush(pq, (d + 1, p))
+
+max_dist = max(dist)
+cnt = 0
+ff = True
+
+for i in range(1, N + 1):
+    if max_dist == dist[i]:
+        cnt += 1
+        if ff:
+            print(i, end=' ')
+            ff = False
+
+print(max_dist, cnt)
