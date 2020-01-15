@@ -1,3 +1,7 @@
+# https://www.acmicpc.net/problem/13460
+# date: 2020.01.12
+# BFS /// 다른 풀이 : Brute
+
 N, M = map(int, input().split())
 arr = [list(input()) for _ in range(N)]
 
