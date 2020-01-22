@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62e78d83-b214-49ff-a097-b020f2f94765" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/New_Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/New_Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B7569_토마토.py" beforeDir="false" afterPath="$PROJECT_DIR$/B7569_토마토.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -94,7 +91,7 @@
       <file leaf-file-name="B5014_스타트링크.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/B5014_스타트링크.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="456">
               <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
             </state>
           </provider>
@@ -147,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="632" />
     <option name="y" value="-8" />
     <option name="width" value="656" />
@@ -320,8 +317,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="632" y="-8" width="656" height="736" extended-state="1" />
-    <editor active="true" />
+    <frame x="632" y="-8" width="656" height="736" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2875" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
@@ -332,7 +328,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32954547" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3983871" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3983871" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -704,7 +700,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/B5014_스타트링크.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="456">
           <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
         </state>
       </provider>
