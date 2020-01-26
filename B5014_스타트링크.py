@@ -34,6 +34,7 @@ if ans == -1:
     print('use the stairs')
 else:
     print(ans)
+    print('test')
 
 
 # F, S, G, U, D = map(int, input().split())
